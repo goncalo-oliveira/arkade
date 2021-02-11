@@ -350,7 +350,7 @@ https://github.com/inlets/inletsctl/releases/download/{{.Version}}/{{$fileName}}
 			Owner:   "digitalocean",
 			Repo:    "doctl",
 			Name:    "doctl",
-			Version: "1.46.0",
+			Version: "1.56.0",
 			URLTemplate: `
 		{{$osStr := ""}}
 		{{ if HasPrefix .OS "ming" -}}

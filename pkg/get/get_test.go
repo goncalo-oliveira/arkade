@@ -635,8 +635,8 @@ func Test_DownloadDigitalOcean(t *testing.T) {
 
 	tool := getTool(name, tools)
 
-	const toolVersion = "1.46.0"
-	const urlTemplate = "https://github.com/digitalocean/doctl/releases/download/v1.46.0/doctl-1.46.0-%s-%s.%s"
+	const toolVersion = "1.56.0"
+	const urlTemplate = "https://github.com/digitalocean/doctl/releases/download/v1.56.0/doctl-1.56.0-%s-%s.%s"
 
 	tests := []test{
 		{os: "mingw64_nt-10.0-18362",
